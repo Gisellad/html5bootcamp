@@ -1,0 +1,15 @@
+{
+  "name": "proyect",
+  "version":"1.0.0",
+  "description":"",
+  "main":"movie.js",
+  "script": {
+    "build":"babel --presets es2018 src -d dist"
+  },
+  "author":"",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli":"^6.26.0",
+    "babel-preset-es2018":"^6.24.1",
+  }
+}
