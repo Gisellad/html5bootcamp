@@ -1,0 +1,98 @@
+#Encabezado {
+  width: 900px;
+  height: 1000px;
+  border: 1px solid #000;
+  margin: auto;
+  text-align: center;
+}
+
+.header {
+  font-size: 46px;
+  background: magenta;
+}
+
+header {
+  width: 900px;
+  height: 100px;
+  border: 1px solid #000;
+  background: magenta;
+}
+
+.navigation {
+  width: 300px;
+  height: 897px;
+  border: 1px solid #000;
+  background: #006699;
+  float: left;
+}
+
+.navigation ul {}
+
+.navigation ul li {
+  list-style: none;
+  text-align: left;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  padding: 100px 0px;
+  color: #fff;
+  font-size: 12px;
+}
+
+header h2 {
+  width: 300px;
+  height: 897px;
+  margin: auto;
+
+}
+
+.content {
+  width: 900px;
+  height: auto; overflow: hidden;
+  border: 1px solid;
+  float: left;
+  font-size: 14px;
+
+}
+
+.TITULO {
+  width: 300px;
+  height: 100px;
+  border: 1px solid;
+  float:left;
+}
+
+
+.ARTICULO {
+  width: 300px;
+  height: 700px;
+  border: 1px solid;
+  float: left;
+  background: #006699;
+}
+
+.footer {
+  width: 300px;
+  height: 95px;
+  border: 1px solid;
+  float: left;
+  font-size: 10px;
+  background: magenta;
+}
+
+.sidebar {
+  width: 200px;
+  height: 300px;
+  border: 1px solid;
+  float: left;
+  font-size: 12px;
+  background: #006699;
+}
+
+.PIE {
+  width: 200px;
+  height: 100px;
+  font-size: 10px;
+  background: magenta;
+}

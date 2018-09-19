@@ -1,0 +1,36 @@
+html {
+    box-sizing: border-box
+  }
+  *, *:before, *:after {
+    box-sizing: inherit
+  }
+section{
+    text-align: center;
+}
+#Hello{
+    visibility: hidden;
+}
+
+ul {
+  position: center;
+  top: 0%;
+  left: auto;
+  transform: translate(44%, 50%);
+}
+
+ul li {
+  animation: animate 3s;
+  font-weight: bold;
+}
+
+@@keyframes animate {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+  }
+}
